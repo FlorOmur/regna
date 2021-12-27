@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@400;500&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    padding-top: 25px;
+    height: 72px;
+    background: rgba(52, 59, 64, 0.9);
+    z-index: 3;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-link {
+    display: inline-block;
+    padding: 13px;
+    color: #FFF;
+}
+
+.menu-link:hover {
+    border-bottom: 3px solid #20c997;
+    transition: 0.7s;
+}
+
+.hero {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5) url("../img/fon fujiyama.jpg") no-repeat top center/cover;
+    background-blend-mode: darken;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-hero {
+    margin-bottom: 30px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.hero-desc {
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #eee;
+}
+
+.hero-btn {
+    padding: 8px 28px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-btn:hover {
+    background-color: #20c997;
+}
+
+.about {
+    padding: 80px 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.img-col-6 {
+    background: url("../img/about-img.jpg") no-repeat center;
+    background-size: 130%;
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.description {
+    margin-bottom: 30px;
+    line-height: 26px;
+}
+
+.icon-box {
+    display: flex;
+}
+
+.about-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    min-width: 64px;
+    height: 64px;
+    border: 2px solid #2dc997;
+    border-radius: 50%;
+    margin-right: 15px;
+    color: #2dc997;
+    transition: 0.3s;
+}
+
+.icon-box:hover .about-icon {
+    background: #2dc997;
+    color: #FFFFFF;
+}
+
+.about-icon span {
+    font-size: 24px;
+}
+
+.facts {
+    background-color: #f7f7f7;
+    padding: 80px 0;
+}
+
+.section-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.section-description {
+    text-align: center;
+    color: #999;
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.facts-stats {
+    display: flex;
+    justify-content: space-around;
+}
+
+.facts-number {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    color: #2dc997;
+}
+
+.facts-content {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #666666;
+}
+
+.services {
+    padding: 80px 0;
+}
+
+.services-desc {
+    margin-bottom: 70px;
+}
+
+.portfolio {
+    background-color: #f7f7f7;
+    padding: 80px 0;
+}
+
+.portfolio-btn {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.portfolio-button {
+    padding: 12px 18px;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    color: #666;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.portfolio-button:hover {
+    background: #2dc997;
+    color: #FFF;
+    transition: 0.7s;
+}
+
+.col-4 {
+    width: 33.333%;
+    padding: 0 15px;
+    margin-bottom: 50px;
+}
+
+.inner-col-4 {
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fafafa;
+    position: relative;
+}
+
+.inner-col-4 span {
+    font-size: 24px;
+}
+
+.icon-col-4 {
+    transition: 0.3s;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 72px;
+    height: 72px;
+    border: 6px solid #fff;
+    background-color: #2dc997;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -36px;
+}
+
+.inner-col-4:hover .icon-col-4 {
+    color: #2dc997;
+    background-color: #FFFFFF;
+    border: 2px solid #2dc997;
+}
+
+.col-4-tile {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #111;
+}
+
+.col-4-content {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+    color: #666666;
+}
+
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-item:hover .overley {
+    bottom: 0;
+}
+
+.overley {
+    background-color: #2dc997;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: -100px;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+.overley-inner {
+    text-align: right;
+}
+
+.overley-inner i {
+    padding-left: 15px;
+}
+
+.portfolio-desc {
+    margin-bottom: 70px;
+}
+
+.img-portfolio {
+    max-width: 100%;
+    height: auto;
+    transition: 0.7s;
+}
+
+.portfolio-item:hover .img-portfolio {
+    transform: translateY(-20px);
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.team {
+    padding: 80px 0;
+}
+
+.inner-c0l-3 {
+    text-align: center;
+}
+
+.img-team {
+    max-width: 100%;
+    height: auto;
+    padding: 0 15px;
+    margin-bottom: 50px;
+}
+
+.img-team:hover {
+    transition: 0.7s;
+    max-width: 110%;
+}
+
+.team-name {
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.team-info {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.link-team {
+    font-size: 18px;
+    color: #666;
+}
+
+.link-team:hover {
+    color: #2dc997;
+    cursor: pointer;
+}
+
+.contact {
+    padding: 30px 0;
+    background-color: #f7f7f7;
+}
+
+.inner-contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: end;
+}
+
+.icon-contact {
+    font-size: 50px;
+    color: #2dc997;
+}
+
+.contact-content {
+    padding-left: 15px;
+    color: #666;
+
+}
+
+.network {
+    display: flex;
+    justify-content: end;
+}
+
+.network-link {
+    padding-left: 10px;
+}
+
+.network-contact {
+    border-radius: 50%;
+    color: #FFFFFF;
+    background-color: #666;
+    text-align: center;
+    padding: 10px;
+}
+
+.icon-facebook {
+    font-size: 20px;
+}
+
+.network-contact:hover {
+    cursor: pointer;
+    background-color: #20c997;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+
+}
+
+.feedback-item {
+    margin-bottom: 25px;
+    padding: 12px 6px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.btn-item {
+    text-align: center;
+}
+
+.feedback-btn {
+    background: #2dc997;
+    border: none;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    margin-bottom: 35px;
+}
+
+.feedback-btn:hover {
+    background: #51d8ad;
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    padding: 30px 0;
+    background-color: #343b40;
+    text-align: center;
+}
+
+.footer-item {
+    color: #FFFFFF;
+}
+
+.link-footer {
+    color: #51d8ad;
+}
+
+.back-to-top {
+    position: absolute;
+    background-color: #20c997;
+    padding: 5px 10px;
+    border-radius: 4px;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.map {
+    margin-bottom: 30px;
+}
