@@ -14,24 +14,24 @@
             <img class="logo-img" src="./img/logo.png">
         </a>
         <nav class="menu">
-            <a class="menu-link" href="#">Home</a>
-            <a class="menu-link" href="#">About</a>
-            <a class="menu-link" href="#">services</a>
-            <a class="menu-link" href="#">portfolio</a>
-            <a class="menu-link" href="#">team</a>
+            <a class="menu-link" href="#hero">Home</a>
+            <a class="menu-link" href="#about">About</a>
+            <a class="menu-link" href="#servises">services</a>
+            <a class="menu-link" href="#portfolio">portfolio</a>
+            <a class="menu-link" href="#team">team</a>
             <a class="menu-link" href="#">drop down</a>
-            <a class="menu-link" href="#">contact</a>
+            <a class="menu-link" href="#contact">contact</a>
         </nav>
     </div>
 </header>
-<section class="hero">
+<section id="hero" class="hero">
     <div class="container">
         <h1 class="title-hero">Welcome to Regna</h1>
         <h2 class="hero-desc">We are team of talented designers making websites with Bootstrap</h2>
         <a class="hero-btn" href="#">Get stsrted</a>
     </div>
 </section>
-<section class="about">
+<section id="about" class="about">
     <div class="container">
         <div class="row">
             <div class="col-6">
@@ -81,7 +81,7 @@
         </div>
     </div>
 </section>
-<section class="facts">
+<section id="facts" class="facts">
     <div class="container">
         <h3 class="section-title">Facts</h3>
         <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
@@ -106,7 +106,7 @@
         </ul>
     </div>
 </section>
-<section class="services">
+<section id="servises" class="services">
     <div class="container">
         <h3 class="section-title">Services</h3>
         <p class="section-description services-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -175,7 +175,7 @@
         </div>
     </div>
 </section>
-<section class="portfolio">
+<section id="portfolio" class="portfolio">
     <div class="container">
         <h3 class="section-title">Portfolio</h3>
         <p class="section-description portfolio-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -307,7 +307,7 @@
         </div>
     </div>
 </section>
-<section class="team">
+<section id="team" class="team">
     <div class="container">
         <h3 class="section-title">Team</h3>
         <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
@@ -315,7 +315,9 @@
         <div class="row">
             <div class="col-3">
                 <div class="inner-c0l-3">
-                    <img class="img-team" src="./img/team-1.jpg">
+                    <div class="img-team">
+                        <img src="./img/team-1.jpg" alt="Walter White">
+                    </div>
                     <h4 class="team-name">Walter White</h4>
                     <p class="team-info">Chief Executive Officer</p>
                     <a class="link-team"><span class="icon-twitter-svgrepo-com"></span></a>
@@ -326,7 +328,9 @@
             </div>
             <div class="col-3">
                 <div class="inner-c0l-3">
-                    <img class="img-team" src="./img/team-2.jpg">
+                    <div class="img-team">
+                        <img src="./img/team-2.jpg" alt="Sarah Jhinson">
+                    </div>
                     <h4 class="team-name">Sarah Jhinson</h4>
                     <p class="team-info">Product Manager</p>
                     <a class="link-team"><span class="icon-twitter-svgrepo-com"></span></a>
@@ -337,7 +341,9 @@
             </div>
             <div class="col-3">
                 <div class="inner-c0l-3">
-                    <img class="img-team" src="./img/team-3.jpg">
+                    <div class="img-team">
+                        <img src="./img/team-3.jpg" alt="William Anderson">
+                    </div>
                     <h4 class="team-name">William Anderson</h4>
                     <p class="team-info">CTO</p>
                     <a class="link-team"><span class="icon-twitter-svgrepo-com"></span></a>
@@ -348,7 +354,9 @@
             </div>
             <div class="col-3">
                 <div class="inner-c0l-3">
-                    <img class="img-team" src="./img/team-4.jpg">
+                    <div class="img-team">
+                        <img src="./img/team-4.jpg" alt="Amanda Jepson">
+                    </div>
                     <h4 class="team-name">Amanda Jepson</h4>
                     <p class="team-info">Accountant</p>
                     <a class="link-team"><span class="icon-twitter-svgrepo-com"></span></a>
@@ -360,7 +368,7 @@
         </div>
     </div>
 </section>
-<section class="contact">
+<section id="contact" class="contact">
     <div class="container">
         <h3 class="section-title">contact</h3>
         <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
@@ -429,11 +437,11 @@
         </div>
     </div>
 </section>
-<footer class="footer">
+<footer id="footer" class="footer">
     <div class="footer-item">
         <p class="footer-title">© Copyright <strong>Regna</strong> . All Rights Reserved</p>
         <p class="footer-link">Designed by<a class="link-footer" href="#"> BootstrapMade</a></p>
-        <a class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+        <a class="back-to-top" href="#hero"><i class="fas fa-arrow-up"></i></a>
     </div>
 </footer>
 </body>
