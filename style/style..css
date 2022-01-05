@@ -20,7 +20,7 @@ img {
 }
 
 .container {
-    max-width: 1170px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -125,8 +125,8 @@ img {
 }
 
 .img-col-6 {
-    background: url("../img/about-img.jpg") no-repeat center;
-    background-size: 130%;
+    background: url("../img/about-img.jpg") no-repeat;
+    background-size: 100%;
 }
 
 .about-title {
@@ -436,12 +436,16 @@ img {
 .contact-content {
     padding-left: 15px;
     color: #666;
-
 }
 
 .network {
     display: flex;
     justify-content: end;
+}
+
+.col-3-contact{
+    margin-bottom: 40px;
+
 }
 
 .network-link {
