@@ -445,9 +445,12 @@ img {
 
 .col-3-contact{
     margin-bottom: 40px;
-
 }
 
+.row-contact{
+    display: flex;
+    justify-content: center;
+}
 .network-link {
     padding-left: 10px;
 }
