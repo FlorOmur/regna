@@ -406,12 +406,12 @@ img {
     margin-bottom: 20px;
 }
 
-.link-team {
+.link-team-icon {
     font-size: 18px;
     color: #666;
 }
 
-.link-team:hover {
+.link-team-icon:hover {
     color: #2dc997;
     cursor: pointer;
 }
