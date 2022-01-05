@@ -368,7 +368,7 @@ img {
 }
 .inner-c0l-3:hover .img-team{
     opacity: 0.7;
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 .inner-c0l-3:hover .img-team:after {
     content: "";
