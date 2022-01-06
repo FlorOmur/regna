@@ -31,7 +31,7 @@ img {
     padding-top: 25px;
     height: 72px;
     background: rgba(52, 59, 64, 0.9);
-    z-index: 3;
+    z-index: 2;
 }
 
 .header-container {
@@ -39,6 +39,7 @@ img {
     justify-content: space-between;
     align-items: center;
 }
+
 
 .menu-link {
     display: inline-block;
@@ -64,6 +65,12 @@ img {
 
 .menu-link:hover:before {
     transform: scale(1);
+}
+
+.menu-burger{
+    font-size: 30px;
+    color: #FFF;
+    display: none;
 }
 
 .hero {
