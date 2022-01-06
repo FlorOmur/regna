@@ -98,6 +98,18 @@
         padding: 70px 0;
     }
 
+    .col-to-action{
+        padding: 70px 0;
+    }
+    .col-9{
+        width: 100%;
+        text-align: center;
+    }
+
+    .col-3-to{
+        width: 100%;
+    }
+
     .portfolio {
         padding: 70px 0;
     }
@@ -126,6 +138,9 @@
     }
     .col-4{
         margin-bottom: 41px;
+    }
+    .feedback{
+        padding: 0;
     }
 }
 

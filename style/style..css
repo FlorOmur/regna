@@ -103,10 +103,12 @@ img {
     font-weight: 500;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
+    transition: 0.4s;
 }
 
 .hero-btn:hover {
     background-color: #20c997;
+    border: 2px solid #20c997;
 }
 
 .about {
@@ -216,6 +218,51 @@ img {
 
 .services-desc {
     margin-bottom: 70px;
+}
+.col-to-action{
+    background: rgba(0,0,0,0.6) url("../img/call-to-action-bg.jpg") no-repeat fixed center/cover;
+    padding: 80px 0;
+    background-blend-mode: darken;
+}
+.col-9{
+    width: 75%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.col-to-title{
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+}
+.col-to-description{
+    color: #fff;
+    margin-bottom: 30px;
+    font-family: "Open Sans", sans-serif;
+}
+.col-3-to{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn-col-to{
+    display: inline-block;
+    color: #fff;
+    text-transform:uppercase ;
+    font-weight: 500;
+    padding: 8px 30px;
+    border: 2px solid #FFF;
+    border-radius: 50px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: 0.4s;
+    cursor: pointer;
+    --bs-gutter-x: 1.5rem;
+}
+.btn-col-to:hover{
+    background: #2dc997;
+    border: 2px solid #2dc997;
 }
 
 .portfolio {
