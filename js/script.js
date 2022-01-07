@@ -1,7 +1,14 @@
-const headerBurgerMenu = document.querySelector('.menu-burger')
-const headerMenu = document.querySelector('.menu')
+const myBurger = document.querySelector('.burger')
+const myMenu = document.querySelector('.menu')
+const menuLinks = document.querySelectorAll('.menu-link')
 
+myBurger.addEventListener('click', () => {
+    myMenu.classList.toggle('show')
+})
 
-headerBurgerMenu.addEventListener('click', () => {
-    headerBurgerMenu.classList.add('show')
+menuLinks.forEach(oneLink => {
+    oneLink.addEventListener('click', () => {
+        myMenu.classList.remove('show')
+
+    })
 })
